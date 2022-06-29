@@ -104,7 +104,17 @@ RUN zypper in -y traceroute \
     numactl \
     ipmitool \
     kdump \
-    supportutils
+    supportutils \
+    glibc-devel \
+    glibc-utils \
+    glibc-extra \
+    linux-glibc-devel \
+    powertop \
+    git \
+    python3-pip \
+    python3-virtualenv \
+    curl
+
 
 RUN zypper clean
 
